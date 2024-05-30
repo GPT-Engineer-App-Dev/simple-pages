@@ -1,4 +1,5 @@
 import { Box, Text, Heading, VStack, Flex } from '@chakra-ui/react';
+import Footer from "../components/Footer.jsx";
 
 const About = () => (
   <Box p={4}>
@@ -14,6 +15,7 @@ const About = () => (
         <Text>To maintain a customer-centric approach in everything we do.</Text>
       </VStack>
     </Box>
+    <Footer />
   </Box>
 );
 
