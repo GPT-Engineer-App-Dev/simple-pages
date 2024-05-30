@@ -5,7 +5,7 @@ import Sidebar from "../components/Sidebar.jsx";
 const About = () => (
   <Flex>
     <Sidebar />
-    <Box p={4}>
+    <Box flex="1" ml={{ base: 0, md: "250px" }} p={4}>
       <Flex direction="column" align="center" justify="center" p={10}>
         <Heading mb={4}>About Us</Heading>
         <Text fontSize="lg" mb={6}>Welcome to our website. We are dedicated to providing the best service possible.</Text>
