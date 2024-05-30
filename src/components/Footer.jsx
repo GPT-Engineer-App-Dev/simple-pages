@@ -3,7 +3,7 @@ import { FaFacebook, FaTwitter, FaInstagram } from "react-icons/fa";
 
 const Footer = () => {
   return (
-    <Box bg="teal.500" color="white" py={4} mt={10}>
+    <Box bg="teal.500" color="white" py={4} mt={16} w="100%" position="fixed" bottom={0} px={8}>
       <VStack spacing={4}>
         <Text>Contact us at: contact@example.com</Text>
         <HStack spacing={4}>
