@@ -1,5 +1,6 @@
 import { Container, Text, VStack, Heading, Button } from "@chakra-ui/react";
 import { Link } from "react-router-dom";
+import Footer from "../components/Footer.jsx";
 
 const Index = () => {
   return (
@@ -10,6 +11,7 @@ const Index = () => {
         <Text>Chat with the agent to start making edits.</Text>
         <Button as={Link} to="/about" colorScheme="teal" size="lg">Learn More About Us</Button>
       </VStack>
+      <Footer />
     </Container>
   );
 };
